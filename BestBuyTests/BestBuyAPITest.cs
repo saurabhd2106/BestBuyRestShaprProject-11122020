@@ -31,8 +31,7 @@ namespace BestBuyTests
         [TestMethod]
         public void VerifyGetProductAPI()
         {
-            restRequest.AddHeader("token", "");
-            x
+           
             restRequest = new RestRequest(endpointUrl + "/products");
 
             IRestResponse restResponse =   restClient.Get(restRequest);
